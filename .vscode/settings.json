@@ -1,0 +1,35 @@
+{
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/templates/**/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "files.exclude": {
+        ".vscode": false,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/*.pyc": true,
+        "**/venv": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "workbench.editor.enablePreview": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "editor.minimap.enabled": true,
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_django"
+    ]
+}
