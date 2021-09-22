@@ -2,7 +2,7 @@ asgiref==3.2.7
 astroid==2.3.3
 autopep8==1.5
 colorama==0.4.3
-Django==3.0.5
+Django==3.1.13
 django-admin-interface==0.12.1
 django-colorfield==0.2.2
 django-flat-responsive==2.0
